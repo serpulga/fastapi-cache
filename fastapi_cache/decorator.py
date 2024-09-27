@@ -164,7 +164,7 @@ def cache(
 
             cache_key = key_builder(
                 func,
-                f"{prefix}:{namespace}",
+                f"{namespace}:{prefix}",
                 request=request,
                 response=response,
                 args=args,
